@@ -1,0 +1,80 @@
+body{
+    background: url(walpaper\ 3.png);
+    background-size: cover;
+    background-position: center;
+}
+h1 {
+    text-align: center;
+    margin-bottom: -10px;
+    padding: 20px;
+}
+
+.register {
+    width: 380px;
+    margin: auto;
+    padding: 80px;
+    background: transparent;
+    backdrop-filter: blur(4px);
+    text-align: center;
+    border-radius: 15px;
+    border-color: black;
+    border: solid 3px black;
+}
+
+label {
+    font-size: 17px;
+}
+
+#emailid {
+    width: 300px;
+    height: 30px;
+    padding-left: 8px;
+    border: none;
+    border-radius: 3px;
+
+}
+
+#password {
+    width: 300px;
+    height: 30px;
+    padding-left: 8px;
+    border: none;
+    border-radius: 3px;
+
+}
+
+
+#confirm {
+    width: 300px;
+    height: 30px;
+    padding-left: 8px;
+    border: none;
+    border-radius: 3px;
+
+}
+
+#submit {
+    width: 300px;
+    height: 40px;
+    padding-left: 7px;
+    border: none;
+    border-radius: 17px;
+    color: blue;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin: 12px 0px 12px 878px;
+
+}
+
+.return {
+    text-size-adjust: 30;
+
+}
+#lock{
+    margin-left: 530px;
+    padding:0px
+}

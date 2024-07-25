@@ -1,0 +1,94 @@
+body {
+    background: url(walpaper\ 4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0 -10px 0;
+    padding: 20px;
+    color: #ffffff;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin: 12px 0px 12px 0px;
+
+}
+
+.login {
+    width: 380px;
+    padding: 30px;
+    background: #00000033;
+    text-align: center;
+    border-radius: 15px;
+    border: 3px solid #ffffff; 
+}
+
+label {
+    font-size: 17px;
+    color: #ffffff; 
+}
+
+input[type="email"],
+input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+#remember {
+    margin-right: 5px;
+}
+
+.submit {
+    width: 100%;
+    height: 40px;
+    border:black;
+    border-radius: 17px;
+    background-color: #97c6f3;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.submit:hover {
+    background-color: #7ec5ff;
+}
+
+.forgot-password,
+.register-text {
+    color: #ffffff; 
+    text-decoration: none;
+}
+
+.register-link {
+    color: #C9E4DE; 
+    text-decoration: underline;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.register-link:hover {
+    text-decoration: none;
+}
+#email{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 0;
+}
